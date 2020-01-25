@@ -1,0 +1,22 @@
+
+.cards-master{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-evenly;
+}
+
+.card{
+    /* background-color:orangered; */
+    border:1px solid brown;
+    height:130px;
+    width: 15%;
+    margin:15px;
+    padding:1.8%;
+    text-align:center;
+}
+
+.card:hover{
+    cursor:pointer;
+    border:1px solid blue;
+    background-color:orange;
+}
